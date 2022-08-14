@@ -10,12 +10,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon onClick={event =>  window.location.href='https://www.instagram.com/callumtremayne'} />
-        <TwitterIcon onClick={event =>  window.location.href='https://www.twitter.com/callumtremayne'} />
-        <FacebookIcon onClick={event =>  window.location.href='https://www.facebook.com/callumtremayne'} />
-        <LinkedInIcon onClick={event =>  window.location.href='https://www.LinkedIn.com/in/callum-tremayne'}/>
+        <InstagramIcon onClick={event => window.open("https://www.instagram.com/callumtremayne")} />
+        <TwitterIcon onClick={event =>  window.open("https://www.twitter.com/callumtremayne")} />
+        <FacebookIcon onClick={event =>  window.open("https://www.facebook.com/callumtremayne")} />
+        <LinkedInIcon onClick={event =>  window.open("https://www.LinkedIn.com/in/callum-tremayne")}/>
       </div>
-      <p> &copy; 2022 | <Link to="/">SportsOrg.com</Link> | Created by Callum Tremayne</p>
+      <p> &copy; 2022 | <Link to="/">SportsOrg.com</Link> | Created by Callum Tremayne for MSc Computing Final Year University Project</p>
     </div>
   );
 }
