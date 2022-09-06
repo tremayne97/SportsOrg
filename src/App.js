@@ -5,6 +5,7 @@ import Footer from './components/Footer';
 import Home from './pages/Home';
 import Calendar from './pages/Calendar';
 import Chat from './pages/Chat';
+import SignIn from './pages/SignIn';
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 
@@ -17,6 +18,7 @@ function App() {
           <Route path="/" exact component={Home} />
           <Route path="/calendar" exact component={Calendar} />
           <Route path="/chat" exact component={Chat} />
+          <Route path="/signin" exact component={SignIn} />
         </Switch>
         <Footer />
       </Router>
