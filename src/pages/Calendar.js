@@ -24,23 +24,23 @@ const localizer = dateFnsLocalizer({
 const events = [
     {
         title: "Training",
-        start: new Date(2022, 7, 15),
-        end: new Date(2022, 7, 15),
+        start: new Date(2022, 8, 12),
+        end: new Date(2022, 8, 12),
     },
     {
         title: "Social",
-        start: new Date(2022, 7, 17),
-        end: new Date(2022, 7, 17),
+        start: new Date(2022, 8, 14),
+        end: new Date(2022, 8, 15),
     },
     {
         title: "MatchDay",
-        start: new Date(2022, 7, 17),
-        end: new Date(2022, 7, 17),
+        start: new Date(2022, 8, 14),
+        end: new Date(2022, 8, 14),
     },
     {
     title: "Light Training",
-    start: new Date(2022, 7, 19),
-    end: new Date(2022, 7, 19),
+    start: new Date(2022, 8, 16),
+    end: new Date(2022, 8, 16),
 },
 
 ];
