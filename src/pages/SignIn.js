@@ -85,7 +85,7 @@ function SignIn() {
     <div className="app">
         {isSubmitted ? <div>
         <h1 className='login-success'>Login Successful.</h1>
-       <h1 className='login-success'>Welcome to SportsOrg</h1>
+       <h1 className='login-success'>Welcome to SportsOrg.</h1>
         <h1 className='login-success'>Click <a href='/about'>here</a> to get started.</h1>
       <img className='login-img-2' src={image} />
       </div> : renderForm}
