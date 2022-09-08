@@ -1,6 +1,8 @@
 import React, { useState } from "react";
-import ReactDOM from "react-dom";
+import { Link } from "react-router-dom";
+import "../App.css";
 import "../styles/SignIn.css";
+import image from "../assets/Logo4.png";
 
 function SignIn() {
   // React States
@@ -56,6 +58,8 @@ function SignIn() {
   // JSX code for login form
   const renderForm = (
     <div className="form">
+              <div className="title-signin">Sign In</div>
+
       <form onSubmit={handleSubmit}>
         <div className="input-container">
           <label>Username </label>
@@ -71,16 +75,22 @@ function SignIn() {
           <input type="submit" />
         </div>
       </form>
+      <Link to ="/signup">
+      <p>Don't have an Account? Sign Up here</p>
+      </Link>
     </div>
   );
 
   return (
     <div className="app">
-      <div className="login-form">
-        <div className="title">Sign In</div>
-        {isSubmitted ? <div>User is successfully logged in</div> : renderForm}
+        {isSubmitted ? <div>
+        <h1 className='login-success'>Login Successful.</h1>
+       <h1 className='login-success'>Welcome to SportsOrg</h1>
+        <h1 className='login-success'>Click <a href='/about'>here</a> to get started.</h1>
+      <img className='login-img-2' src={image} />
+      </div> : renderForm}
+
       </div>
-    </div>
   );
 }
 

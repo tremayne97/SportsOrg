@@ -8,7 +8,7 @@ function Home() {
     <div className="headerContainer">
       <h1> SportsOrg </h1>
       <p>Take the hard work <br /> out of teamwork </p>
-      <Link to="/signin">
+      <Link to="/signup">
       <button>JOIN NOW</button>
       </Link>
     </div>
