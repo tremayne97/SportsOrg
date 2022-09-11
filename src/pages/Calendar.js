@@ -41,6 +41,12 @@ const events = [
     start: new Date(2022, 8, 16),
     end: new Date(2022, 8, 16),
 },
+    {    
+    title: "Training Bootcamp",
+    start: new Date(2022, 8, 20),
+    end: new Date(2022, 8, 23),
+    },
+
 
 ];
 
@@ -54,8 +60,8 @@ function CalendarApp() {
 
     return (
         <div className="title">
-            <h1>Calendar</h1>
-            <h2>Add New Event</h2>
+            <h1>SportsOrg LAX Calendar</h1>
+            {/* <h2>Add New Event</h2>
             <div className="tab">
                 <input type="text" placeholder="Add Title" style={{ width: "20%", marginRight: "10px" }} value={newEvent.title} onChange={(e) => setNewEvent({ ...newEvent, title: e.target.value })} />
                 <DatePicker placeholderText="Start Date" style={{ marginRight: "10px" }} selected={newEvent.start} onChange={(start) => setNewEvent({ ...newEvent, start })} />
@@ -63,7 +69,7 @@ function CalendarApp() {
                 <button stlye={{ marginTop: "10px" }} onClick={handleAddEvent}>
                     Add Event
                 </button>
-            </div>
+            </div> */}
                 <div className="calendar">
             <Calendar localizer={localizer} events={allEvents} startAccessor="start" endAccessor="end" style={{ height: 500, margin: "50px" }} />
                  </div>
