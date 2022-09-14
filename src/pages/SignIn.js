@@ -12,12 +12,28 @@ function SignIn() {
   // User Login info
   const database = [
     {
-      username: "user1",
-      password: "pass1"
+      username: "ctremayne",
+      password: "123123"
     },
     {
-      username: "user2",
-      password: "pass2"
+      username: "jditch",
+      password: "123123"
+    },
+    {
+      username: "eyoung",
+      password: "123123"
+    },
+    {
+      username: "lproctor",
+      password: "123123"
+    },
+    {
+      username: "lgribbin",
+      password: "123123"
+    },
+    {
+      username: "obrew",
+      password: "123123"
     }
   ];
 

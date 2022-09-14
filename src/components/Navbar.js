@@ -21,8 +21,8 @@ function Navbar() {
               <Link to="/about"> About </Link>
               <Link to="/calendar"> Calendar </Link>
               <Link to="/chat"> Chat </Link>
-              {/* <Link to="/signin"> Sign In </Link> */}
-              <Link to="/logout"> Log Out </Link>
+              <Link to="/signup"> Sign In </Link>
+              {/* <Link to="/logout"> Log Out </Link> */}
             </div>
         </div>
         <div className="rightSide">
@@ -30,8 +30,8 @@ function Navbar() {
           <Link to="/about"> About </Link>
           <Link to="/calendar"> Calendar </Link>
           <Link to="/chat"> Chat </Link>
-          {/* <Link to="/signin"> Sign In </Link> */}
-          <Link to="/logout"> Log Out </Link>
+          <Link to="/signup"> Sign In </Link>
+          {/* <Link to="/logout"> Log Out </Link> */}
           <button onClick={toggleNavbar}>
             <ReorderIcon />
           </button>
